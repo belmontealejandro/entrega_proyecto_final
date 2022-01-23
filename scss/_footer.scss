@@ -1,0 +1,23 @@
+footer {
+    background-color: $bg_oscuro;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    color: orange;
+    grid-area: footer;
+    align-self: center;
+        & a {
+        text-decoration: none;
+        color: #342C29;
+        font-weight: bold;
+        }
+        a:hover {
+            color: orange;
+        }
+        h4 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.8rem;
+        color: orange;
+        }
+}
